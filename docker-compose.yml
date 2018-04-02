@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  openshserv:
+    image: openshserv
+    build:
+      context: .
+      dockerfile: openshserv\Dockerfile
