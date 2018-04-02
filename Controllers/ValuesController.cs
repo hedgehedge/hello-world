@@ -10,7 +10,7 @@ namespace openshserv.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2", "value3", "value4" };
+            return new string[] { "value1", "value2", "value3", "value4", "hahahahah" };
         }
 
         // GET api/values/5
