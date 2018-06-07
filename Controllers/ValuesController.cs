@@ -30,6 +30,8 @@ namespace openshserv.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]string value)
         {
+            if (id == 1)
+                return;
         }
 
         // DELETE api/values/5
