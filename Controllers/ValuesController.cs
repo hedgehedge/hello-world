@@ -17,7 +17,7 @@ namespace openshserv.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value one ch_1";
+            return "value one ch_1 plus some change";
         }
 
         // POST api/values
