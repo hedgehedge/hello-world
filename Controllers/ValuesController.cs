@@ -30,7 +30,7 @@ namespace openshserv.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]string value)
         {
-            if (id == 1 || id > 3)
+            if (id == -2 || id > 3)
                 return;
         }
 
