@@ -38,7 +38,7 @@ namespace openshserv.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-
+            //no deletion
         }
     }
 }
