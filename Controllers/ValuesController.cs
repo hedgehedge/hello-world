@@ -17,7 +17,7 @@ namespace openshserv.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "hmm_bef more value one ch_1 plus some change hmm merg";
+            return "hmm_bef more value one ch_1 plus some change hmm merg ok_br";
         }
 
         // POST api/values
@@ -38,7 +38,7 @@ namespace openshserv.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-
+            //no deletion
         }
     }
 }
