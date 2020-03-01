@@ -10,14 +10,14 @@ namespace openshserv.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "first and vv 1 1", "second", "value asdmoresobie", "value4", "some new val", "hahahahah", "mod_sth" };
+            return new string[] { "new value", "first and vv 1 1", "second", "value asdmoresobie", "value4", "some new val", "hahahahah", "mod_sth" };
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "hmm_bef more value one ch_1 plus some change hmm merg ok_br";
+            return "hmm_bef more value one ch_1 plus some change hmm merg ok_br and moreover";
         }
 
         // POST api/values
